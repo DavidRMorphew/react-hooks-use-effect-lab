@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import { useEffect } from "react/cjs/react.production.min";
 
 function Question({ question, onAnswered }) {
   const [timeRemaining, setTimeRemaining] = useState(10);
